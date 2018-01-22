@@ -5,27 +5,27 @@ spring:
     config:
       server:
         svn:
-          uri: https://github.com/dongwenqiang002/horcrux-kuliao/trunk/horcrux-config      #ÅäÖÃ²Ö¿â
+          uri: https://github.com/dongwenqiang002/horcrux-kuliao/trunk/horcrux-config      #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
           username: roseJoke
           password: 100715
           search-paths: https://github.com/dongwenqiang002/horcrux-kuliao.git
 
-#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ÅäÖÃ²Ö¿â
+#   password: password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #ï¿½ï¿½ï¿½Ã²Ö¿ï¿½
 #   username: yong.xu
-#   password: password123                ÎÒ×Ô¼º´òµÄGit²Ö¿â   https://github.com/roseJoke/BlossomRose-.git
+#   passwordæ¥¼æ˜¯çš„å‘é€åˆ°æŒ¥å‘åˆ† æ°´ç”µè´¹é‚£é€Ÿåº¦æ¥çœ‹ä½ å‘è´§åç¦»å¼€ä¸œä¸‰çœï¼Œä»£ç å‘é¡ºä¸° æ–¯å¡è¿ªéƒ¨åˆ†å°±å¼€å§‹ç”µé£æ‰‡   : password123                ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Gitï¿½Ö¿ï¿½   https://github.com/roseJoke/BlossomRose-.git
