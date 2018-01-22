@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/server-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -260,7 +260,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="405" />
     <option name="y" value="81" />
     <option name="width" value="1343" />
@@ -708,12 +708,12 @@
       <workItem from="1516583761475" duration="810000" />
       <workItem from="1516584589664" duration="5548000" />
       <workItem from="1516590522115" duration="4129000" />
-      <workItem from="1516613863226" duration="136000" />
+      <workItem from="1516613863226" duration="666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180293000" />
+    <option name="totallyTimeSpent" value="180823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,7 +725,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="81" width="1343" height="973" extended-state="0" />
+    <frame x="405" y="81" width="1343" height="973" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1129,7 +1129,7 @@
     <entry file="file://$PROJECT_DIR$/server-config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
