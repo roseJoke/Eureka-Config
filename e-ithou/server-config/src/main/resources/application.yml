@@ -5,7 +5,7 @@ spring:
     config:
       server:
         svn:
-          uri: https://github.com/dongwenqiang002/horcrux-kuliao/trunk/horcrux-config      #我的仓库
+          uri: https://github.com/roseJoke/bloomRose.git    //我的远程仓库地址
           username: roseJoke
           password: 100715xy
-          search-paths: https://github.com/dongwenqiang002/horcrux-kuliao.git
+          search-paths: https://github.com/roseJoke/bloomRose.git
