@@ -5,9 +5,11 @@ spring:
     config:
       server:
         svn:
-          uri: https://github.com/dongwenqiang002/horcrux-kuliao/trunk/horcrux-config      #���òֿ�
+          uri: https://github.com/dongwenqiang002/horcrux-kuliao/trunk/horcrux-config      #���òֿ�
           username: roseJoke
-          password: 100715xy
+          password: 100715
           search-paths: https://github.com/dongwenqiang002/horcrux-kuliao.git
 
- 递四方速递付多多多多多多多多多多多多多多多多多多多多多
+#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #���òֿ�
+#   username: yong.xu
+#   password: password123                ���Լ����Git�ֿ�   https://github.com/roseJoke/BlossomRose-.git
