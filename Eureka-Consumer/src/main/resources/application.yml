@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://alice:1234@localhost:7555/eureka/    # 指定服务注册中心的地址
+  instance:
+    hostname: localhost
+    status-page-url-path: /index                     # 自定义url位置
+
+spring:
+    application:
+        name: Eureka-Consumer         # 服务命名
+server:
+  port: 7556
+

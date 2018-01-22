@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: server-config
+  cloud:
+    config:
+      server:
+        svn:
+          uri: https://github.com/dongwenqiang002/horcrux-kuliao/trunk/horcrux-config      #≈‰÷√≤÷ø‚
+          username: roseJoke
+          password: 100715
+          search-paths: https://github.com/dongwenqiang002/horcrux-kuliao.git
+
+#  uri: https://172.16.0.25/svn/kim_project/trunk/babel_horcrux/horcrux-config  #≈‰÷√≤÷ø‚
+#   username: yong.xu
+#   password: password123                Œ“◊‘º∫¥ÚµƒGit≤÷ø‚   https://github.com/roseJoke/BlossomRose-.git
