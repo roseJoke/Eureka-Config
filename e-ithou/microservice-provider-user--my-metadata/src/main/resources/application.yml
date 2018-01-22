@@ -1,0 +1,21 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://alice:1234@localhost:7555/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true                       # 开启ip地址定义注册中心，默认值为false
+    instance-id: ${spring.application.name}:${server.port}
+    metadata-map:
+        # 自定义的元数据，key，vlaue都可以随便写
+        my-metadata : 我自定义的元数据！
+
+server:
+  port: 8555
+
+spring:
+  application:
+    name: microservice-provider-user  #提供给其他人的服务名字  其他地方可以用这个调用
+
+logging:
+  level: info
