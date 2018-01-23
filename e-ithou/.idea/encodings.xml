@@ -10,12 +10,7 @@
     <file url="file://$PROJECT_DIR$/Eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Eureka-serverD" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-user--my-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-config" charset="UTF-8" />
