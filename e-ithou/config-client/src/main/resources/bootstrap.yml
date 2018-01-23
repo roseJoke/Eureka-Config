@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: roseJoke
+  cloud:
+    config:
+      profile: dev
+      #label: config-lable-test
+      uri: http://localhost:7888/
+server:
+  port: 7889
