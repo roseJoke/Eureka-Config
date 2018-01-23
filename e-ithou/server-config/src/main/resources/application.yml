@@ -5,7 +5,7 @@ spring:
     config:
       server:
         svn:
-          uri: https://github.com/roseJoke/bloomRose.git    //我的远程仓库地址
-          username: roseJoke
-          password: 100715xy
-          search-paths: https://github.com/roseJoke/bloomRose.git
+          uri: https://github.com/roseJoke/bloomRose.git    #我的git远程仓库地址
+          username: roseJoke                                #用户名
+          password: 100715xy                                #密码
+          search-paths: Repo_config                         #配置仓库路径下的相对搜索位置，可配置多个

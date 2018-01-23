@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/server-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -261,10 +261,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
-    <option name="y" value="81" />
+    <option name="x" value="656" />
+    <option name="y" value="6" />
     <option name="width" value="1343" />
-    <option name="height" value="973" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,7 +282,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,11 +289,55 @@
               <item name="e-ithou" type="b2602c69:ProjectViewProjectNode" />
               <item name="e-ithou" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="e-ithou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-ithou" type="462c0819:PsiDirectoryNode" />
+              <item name="server-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-ithou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-ithou" type="462c0819:PsiDirectoryNode" />
+              <item name="server-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-ithou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-ithou" type="462c0819:PsiDirectoryNode" />
+              <item name="server-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-ithou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-ithou" type="462c0819:PsiDirectoryNode" />
+              <item name="server-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-ithou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-ithou" type="462c0819:PsiDirectoryNode" />
+              <item name="server-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serverconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-ithou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-ithou" type="462c0819:PsiDirectoryNode" />
+              <item name="server-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -665,12 +708,13 @@
       <workItem from="1516583761475" duration="810000" />
       <workItem from="1516584589664" duration="5548000" />
       <workItem from="1516590522115" duration="4129000" />
-      <workItem from="1516613863226" duration="1069000" />
+      <workItem from="1516613863226" duration="1320000" />
+      <workItem from="1516669632735" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181226000" />
+    <option name="totallyTimeSpent" value="183151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,7 +726,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="81" width="1343" height="973" extended-state="0" />
+    <frame x="656" y="6" width="1343" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -696,7 +740,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.6020093" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16212003" sideWeight="0.47543582" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1644583" sideWeight="0.47543582" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33903676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32418302" sideWeight="0.4849624" order="1" side_tool="false" content_ui="tabs" />
@@ -1066,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-config/src/main/java/com/kuliao/serverconfig/ServerConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/.idea/workspace.xml" />
     <entry file="file://$PROJECT_DIR$/server-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1083,10 +1119,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server-config/src/main/java/com/kuliao/serverconfig/ServerConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server-config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="81" />
           <folding />
         </state>
       </provider>
