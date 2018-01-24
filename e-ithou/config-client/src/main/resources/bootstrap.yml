@@ -4,7 +4,14 @@ spring:
   cloud:
     config:
       profile: dev
-      #label: config-lable-test
-      uri: http://localhost:7888/
+      label: master
+      uri: http://172.17.0.20:7888/
 server:
   port: 7889
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://alice:1234@172.17.0.20:7555/eureka/
