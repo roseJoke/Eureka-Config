@@ -12,18 +12,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 @RestController
 public class TestController {
-  /* @Value("${from}")
-    private String from;
+      @Value("${from}")
+       private String from;
+
+       @RequestMapping("/from")
+       public String from(){
+           return this.from;
+       }
+   /* @Autowired
+    private Environment env;
 
     @RequestMapping("/from")
-    public String from(){
-        return this.from;
+    public String fromi(){
+        return env.getProperty("from");
     }*/
-   @Autowired
-   private Environment env;
-
-   @RequestMapping("/from")
-   public String from(){
-       return env.getProperty("from");
-   }
 }

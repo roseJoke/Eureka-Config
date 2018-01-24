@@ -1,17 +1,17 @@
 spring:
   application:
-    name: roseJoke
+    name: application
   cloud:
     config:
       profile: dev
       label: master
       uri: http://172.17.0.20:7888/
-server:
-  port: 7889
-
-eureka:
-  client:
-    healthcheck:
-      enabled: true
-    serviceUrl:
-      defaultZone: http://alice:1234@172.17.0.20:7555/eureka/
+#server:
+#  port: 7889
+#
+#eureka:
+#  client:
+#    healthcheck:
+#      enabled: true
+#    serviceUrl:
+#      defaultZone: http://alice:1234@172.17.0.20:7555/eureka/

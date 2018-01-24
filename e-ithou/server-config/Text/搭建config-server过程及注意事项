@@ -1,0 +1,72 @@
+Spring cloud Config：分布式配置中心
+        一、构建配置中心：
+                （1）创建Spring Boot工程，命名为config-server,并导入pom依赖
+                        spring-cloud-config-server
+                （2）创建Spring Boot的程序主类，添加@EnableConfigServer注解（开启Spring Cloud Config服务端功能）
+                （3）配置yml文件或（properties）spring:
+                application:
+                    name: server-config
+                       cloud:
+                         config:
+                             server:
+                                 git:
+                                    uri: https://github.com/你的respository/       # git远程仓库地址
+                                    username: ********                                #git仓库用户名
+                                    password: ........                                #密码
+                                    search-paths: Repo_config                         #配置相对搜索路径，可配置多个，一般用来存储配置文件
+                  eureka:
+                    client:
+                      serviceUrl:
+                        defaultZone: http://alice:1234@138.15.0.20:7555/eureka/
+                  server:
+                    port: 7888
+
+                    Repo-config的完整路径如下：https://github.com/roseJoke/bloomRose/Repo_config
+                    我是创建在git仓库repository下。
+                    新建配置文件（注意：yml与properties中配置格式不同，yml中用“：”，properties中用“=”，错误书写会造成读取异常、无内容,还应注意中英文格式）
+                       application.yml/properties    其中设置内容：from: git-default-1.0/from=git-default-1.0
+                       application-dev.yml/properties        内容：from: git-dev-1.0
+                        application-prod.yml/properties      内容：from: git-prod-1.0
+                         application-test.yml/properties     内容：from: git-test-1.0
+
+                    版本测试的话可以新建分支,这里不详细叙述了。
+                    git上默认分支是master
+                    如果没有问题就可以启动了application项目了
+                    通过浏览器访问http://localhost:7888/application/prod/master
+                    会返回分支信息，如果没有错误的话应该是没什么问题了
+
+        二、客户端配置映射：
+                （1）创建Spring Boot应用，命名为config-client,并在pom中导入依赖
+                      spring-cloud-starter-web
+                 (2) 创建应用主类，创建配置文件bootstrap.properites（举例说明：以application-dev.yml为例,application为name,dev为profile，label如果你没创建分支默认是master）
+                 spring.application.name=application                #对应配置文件中{application}部分
+                 spring.cloud.config.profile=dev                    #对应配置文件中{profile}部分
+                 spring.cloud.config.label=master                   #对应配置文件中{label}部分
+                 spring.cloud.config.uri=http://服务器ip:7888/      #配置中心config-server的地址
+                 server.port: 7889
+
+               （举例说明：以application-dev.yml为例,application为name,dev为profile，label如果你没创建分支默认是master）
+               （3）创建控制器
+               @RefreshScope
+               @RestController
+               public class TestController {
+               //方式一访问from
+                /*  @Value("${from}")
+                   private String from;
+
+                   @RequestMapping("/from")
+                   public String from(){
+                       return this.from;
+                   }*/
+
+                   //方式二
+                  @Autowired
+                  private Environment env;
+
+                  @RequestMapping("/from")
+                  public String fromi(){
+                      return env.getProperty("from");
+                  }
+               }
+               访问http://localhost:7889/from
+               返回 git-dev-1.0  则配置中心基本功能搭建完成
