@@ -1,2 +1,9 @@
-from=git-dev-1.0
-server.port=7894
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7555/eureka/
+
+logging:
+  level: info
+
+from: git-dev-1.0
