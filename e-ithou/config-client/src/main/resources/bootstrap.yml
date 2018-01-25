@@ -1,11 +1,12 @@
 spring:
   application:
-    name: application
+    name: client-config
   cloud:
     config:
       profile: dev
       label: master
       uri: http://172.17.0.20:7888/
+
 #server:
 #  port: 7889
 #
