@@ -1,2 +1,1 @@
-from=git-dev-1.0
-server.port=7894
+from: git-dev-1.0
